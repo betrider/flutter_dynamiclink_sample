@@ -55,11 +55,11 @@ class DynamicLink {
       uriPrefix: dynamicLinkPrefix,
       link: Uri.parse('$dynamicLinkPrefix/$screenName?id=$id'),
       androidParameters: const AndroidParameters(
-        packageName: 'com.sample.dynamiclink',
+        packageName: 'com.betrider.dynamiclink',
         minimumVersion: 0,
       ),
       iosParameters: const IOSParameters(
-        bundleId: 'com.sample.dynamiclink',
+        bundleId: 'com.betrider.dynamiclink',
         minimumVersion: '0',
       ),
     );

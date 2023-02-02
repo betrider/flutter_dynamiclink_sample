@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1069831166961:android:76e3d6ee7893ef17748250",
+        "mobilesdk_app_id": "1:1069831166961:android:75589fdc52cb0632748250",
         "android_client_info": {
-          "package_name": "com.sample.dynamiclink"
+          "package_name": "com.betrider.dynamiclink"
         }
       },
       "oauth_client": [
@@ -29,6 +29,13 @@
             {
               "client_id": "1069831166961-6vubtq5r1bl2p25295hl1vruijp8o6dr.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "1069831166961-pk19s40imcgvkdsa6h4cpi7q8sjn7vjh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sample.dynamiclink"
+              }
             }
           ]
         }

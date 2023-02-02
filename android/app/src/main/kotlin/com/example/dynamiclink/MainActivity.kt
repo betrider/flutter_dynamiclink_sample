@@ -1,4 +1,4 @@
-package com.sample.dynamiclink
+package com.betrider.dynamiclink
 
 import io.flutter.embedding.android.FlutterActivity
 

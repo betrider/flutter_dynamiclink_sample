@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDT19DOH83CNbHpSncv-l1dic7eiDbwOrE',
-    appId: '1:1069831166961:android:76e3d6ee7893ef17748250',
+    appId: '1:1069831166961:android:75589fdc52cb0632748250',
     messagingSenderId: '1069831166961',
     projectId: 'flutter-dynamic-link-3e5a1',
     storageBucket: 'flutter-dynamic-link-3e5a1.appspot.com',
@@ -59,11 +59,11 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAabKVXEYkVJ7ON6s_MNiELEQXlAWHcx54',
-    appId: '1:1069831166961:ios:be2230fbc4a7dcea748250',
+    appId: '1:1069831166961:ios:e8829275b2a38736748250',
     messagingSenderId: '1069831166961',
     projectId: 'flutter-dynamic-link-3e5a1',
     storageBucket: 'flutter-dynamic-link-3e5a1.appspot.com',
-    iosClientId: '1069831166961-pk19s40imcgvkdsa6h4cpi7q8sjn7vjh.apps.googleusercontent.com',
-    iosBundleId: 'com.sample.dynamiclink',
+    iosClientId: '1069831166961-jogm17pa2frcvhcbqvh0uj7bnc7cv6rb.apps.googleusercontent.com',
+    iosBundleId: 'com.betrider.dynamiclink',
   );
 }
