@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
 DynamicLink dynamicLink = DynamicLink();
+BuildContext? globalContext;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(name: 'test', options: DefaultFirebaseOptions.currentPlatform);
-  dynamicLink.setup();
   runApp(const MyApp());
 }
 
@@ -41,6 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    WidgetsBinding.instance.addPostFrameCallback(
+      (_) => DynamicLink().setup()
+    );
+    globalContext = context;
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
