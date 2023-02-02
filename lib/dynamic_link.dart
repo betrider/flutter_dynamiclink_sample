@@ -50,7 +50,7 @@ class DynamicLink {
   }
 
   Future<String> getShortLink(String screenName, String id) async {
-    String dynamicLinkPrefix = 'https://betriderdynamic.page.link';
+    String dynamicLinkPrefix = 'https://betrider.page.link';
     final dynamicLinkParams = DynamicLinkParameters(
       uriPrefix: dynamicLinkPrefix,
       link: Uri.parse('$dynamicLinkPrefix/$screenName?id=$id'),

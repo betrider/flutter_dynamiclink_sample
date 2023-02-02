@@ -31,10 +31,10 @@
               "client_type": 3
             },
             {
-              "client_id": "1069831166961-pk19s40imcgvkdsa6h4cpi7q8sjn7vjh.apps.googleusercontent.com",
+              "client_id": "1069831166961-jogm17pa2frcvhcbqvh0uj7bnc7cv6rb.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.sample.dynamiclink"
+                "bundle_id": "com.betrider.dynamiclink"
               }
             }
           ]
